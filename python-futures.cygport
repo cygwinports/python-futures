@@ -1,0 +1,15 @@
+inherit python2-distutils
+
+NAME="python-futures"
+VERSION=3.1.1
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Backport of Python concurrent.futures to 2.7"
+DESCRIPTION="The concurrent.futures module provides a high-level interface for
+asynchronously executing callables.  This module is a backport for Python 2.7."
+
+ARCH=noarch
+
+PKG_NAMES="python2-futures"
+#python2_futures_OBSOLETES=${NAME}
+python2_futures_CONTENTS="*"
